@@ -72,8 +72,8 @@
 				<nav class="limiter-menu-desktop container">
 					
 					<!-- Logo desktop -->		
-					<a href="#" class="logo">
-						<img src="{{ url('public') }}/assets/icons/logo-01.png" alt="IMG-LOGO">
+					<a href="{ url('home') }}" class="logo">
+						<img src="{{ url('public') }}/assets/images/icons/logo-01.png" alt="IMG-LOGO">
 					</a>
 
 					<!-- Menu desktop -->
@@ -85,10 +85,6 @@
 
 							<li class="active-menu">
 								<a href="{{ url('shop') }}">Shop</a>
-							</li>
-
-							<li class="label1" data-label1="hot">
-								<a href="shoping-cart.html">Features</a>
 							</li>
 
 							<li>
@@ -127,7 +123,7 @@
 		<div class="wrap-header-mobile">
 			<!-- Logo moblie -->		
 			<div class="logo-mobile">
-				<a href="index.html"><img src="{{ url('public') }}/assets/icons/logo-01.png" alt="IMG-LOGO"></a>
+				<a href="index.html"><img src="{{ url('public') }}/assets/images/icons/logo-01.png" alt="IMG-LOGO"></a>
 			</div>
 
 			<!-- Icon header -->
@@ -223,7 +219,7 @@
 		<div class="modal-search-header flex-c-m trans-04 js-hide-modal-search">
 			<div class="container-search-header">
 				<button class="flex-c-m btn-hide-modal-search trans-04 js-hide-modal-search">
-					<img src="{{ url('public') }}/assets/icons/icon-close2.png" alt="CLOSE">
+					<img src="{{ url('public') }}/assets/images/icons/icon-close2.png" alt="CLOSE">
 				</button>
 
 				<form class="wrap-search-header flex-w p-l-15">
@@ -255,7 +251,7 @@
 				<ul class="header-cart-wrapitem w-full">
 					<li class="header-cart-item flex-w flex-t m-b-12">
 						<div class="header-cart-item-img">
-							<img src="{{ url('public') }}/assets/item-cart-01.jpg" alt="IMG">
+							<img src="{{ url('public') }}/assets/images/item-cart-01.jpg" alt="IMG">
 						</div>
 
 						<div class="header-cart-item-txt p-t-8">
@@ -271,7 +267,7 @@
 
 					<li class="header-cart-item flex-w flex-t m-b-12">
 						<div class="header-cart-item-img">
-							<img src="{{ url('public') }}/assets/item-cart-02.jpg" alt="IMG">
+							<img src="{{ url('public') }}/assets/images/item-cart-02.jpg" alt="IMG">
 						</div>
 
 						<div class="header-cart-item-txt p-t-8">
@@ -287,7 +283,7 @@
 
 					<li class="header-cart-item flex-w flex-t m-b-12">
 						<div class="header-cart-item-img">
-							<img src="{{ url('public') }}/assets/item-cart-03.jpg" alt="IMG">
+							<img src="{{ url('public') }}/assets/images/item-cart-03.jpg" alt="IMG">
 						</div>
 
 						<div class="header-cart-item-txt p-t-8">
@@ -572,7 +568,7 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="{{ url('public') }}/assets/product-01.jpg" alt="IMG-PRODUCT">
+							<img src="{{ url('public') }}/assets/images/product-01.jpg" alt="IMG-PRODUCT">
 
 							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
@@ -581,7 +577,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Esprit Ruffle Shirt
 								</a>
 
@@ -592,8 +588,8 @@
 
 							<div class="block2-txt-child2 flex-r p-t-3">
 								<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/icons/icon-heart-01.png" alt="ICON">
-									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/icons/icon-heart-02.png" alt="ICON">
+									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/images/icons/icon-heart-01.png" alt="ICON">
+									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
 						</div>
@@ -604,7 +600,7 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="{{ url('public') }}/assets/product-02.jpg" alt="IMG-PRODUCT">
+							<img src="{{ url('public') }}/assets/images/product-02.jpg" alt="IMG-PRODUCT">
 
 							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
@@ -613,7 +609,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Herschel supply
 								</a>
 
@@ -624,8 +620,8 @@
 
 							<div class="block2-txt-child2 flex-r p-t-3">
 								<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/icons/icon-heart-01.png" alt="ICON">
-									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/icons/icon-heart-02.png" alt="ICON">
+									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/images/icons/icon-heart-01.png" alt="ICON">
+									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
 						</div>
@@ -636,7 +632,7 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="{{ url('public') }}/assets/product-03.jpg" alt="IMG-PRODUCT">
+							<img src="{{ url('public') }}/assets/images/product-03.jpg" alt="IMG-PRODUCT">
 
 							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
@@ -645,7 +641,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Only Check Trouser
 								</a>
 
@@ -656,8 +652,8 @@
 
 							<div class="block2-txt-child2 flex-r p-t-3">
 								<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/icons/icon-heart-01.png" alt="ICON">
-									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/icons/icon-heart-02.png" alt="ICON">
+									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/images/icons/icon-heart-01.png" alt="ICON">
+									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
 						</div>
@@ -668,7 +664,7 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="{{ url('public') }}/assets/product-04.jpg" alt="IMG-PRODUCT">
+							<img src="{{ url('public') }}/assets/images/product-04.jpg" alt="IMG-PRODUCT">
 
 							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
@@ -677,7 +673,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Classic Trench Coat
 								</a>
 
@@ -688,8 +684,8 @@
 
 							<div class="block2-txt-child2 flex-r p-t-3">
 								<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/icons/icon-heart-01.png" alt="ICON">
-									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/icons/icon-heart-02.png" alt="ICON">
+									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/images/icons/icon-heart-01.png" alt="ICON">
+									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
 						</div>
@@ -700,7 +696,7 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="{{ url('public') }}/assets/product-05.jpg" alt="IMG-PRODUCT">
+							<img src="{{ url('public') }}/assets/images/product-05.jpg" alt="IMG-PRODUCT">
 
 							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
@@ -709,7 +705,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Front Pocket Jumper
 								</a>
 
@@ -720,8 +716,8 @@
 
 							<div class="block2-txt-child2 flex-r p-t-3">
 								<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/icons/icon-heart-01.png" alt="ICON">
-									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/icons/icon-heart-02.png" alt="ICON">
+									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/images/icons/icon-heart-01.png" alt="ICON">
+									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
 						</div>
@@ -732,7 +728,7 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="{{ url('public') }}/assets/product-06.jpg" alt="IMG-PRODUCT">
+							<img src="{{ url('public') }}/assets/images/product-06.jpg" alt="IMG-PRODUCT">
 
 							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
@@ -741,7 +737,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Vintage Inspired Classic 
 								</a>
 
@@ -752,8 +748,8 @@
 
 							<div class="block2-txt-child2 flex-r p-t-3">
 								<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/icons/icon-heart-01.png" alt="ICON">
-									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/icons/icon-heart-02.png" alt="ICON">
+									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/images/icons/icon-heart-01.png" alt="ICON">
+									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
 						</div>
@@ -764,7 +760,7 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="{{ url('public') }}/assets/product-07.jpg" alt="IMG-PRODUCT">
+							<img src="{{ url('public') }}/assets/images/product-07.jpg" alt="IMG-PRODUCT">
 
 							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
@@ -773,7 +769,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Shirt in Stretch Cotton
 								</a>
 
@@ -784,8 +780,8 @@
 
 							<div class="block2-txt-child2 flex-r p-t-3">
 								<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/icons/icon-heart-01.png" alt="ICON">
-									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/icons/icon-heart-02.png" alt="ICON">
+									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/images/icons/icon-heart-01.png" alt="ICON">
+									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
 						</div>
@@ -796,7 +792,7 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="{{ url('public') }}/assets/product-08.jpg" alt="IMG-PRODUCT">
+							<img src="{{ url('public') }}/assets/images/product-08.jpg" alt="IMG-PRODUCT">
 
 							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
@@ -805,7 +801,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Pieces Metallic Printed
 								</a>
 
@@ -816,8 +812,8 @@
 
 							<div class="block2-txt-child2 flex-r p-t-3">
 								<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/icons/icon-heart-01.png" alt="ICON">
-									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/icons/icon-heart-02.png" alt="ICON">
+									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/images/icons/icon-heart-01.png" alt="ICON">
+									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
 						</div>
@@ -828,7 +824,7 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="{{ url('public') }}/assets/product-09.jpg" alt="IMG-PRODUCT">
+							<img src="{{ url('public') }}/assets/images/product-09.jpg" alt="IMG-PRODUCT">
 
 							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
@@ -837,7 +833,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Converse All Star Hi Plimsolls
 								</a>
 
@@ -848,8 +844,8 @@
 
 							<div class="block2-txt-child2 flex-r p-t-3">
 								<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/icons/icon-heart-01.png" alt="ICON">
-									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/icons/icon-heart-02.png" alt="ICON">
+									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/images/icons/icon-heart-01.png" alt="ICON">
+									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
 						</div>
@@ -860,7 +856,7 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="{{ url('public') }}/assets/product-10.jpg" alt="IMG-PRODUCT">
+							<img src="{{ url('public') }}/assets/images/product-10.jpg" alt="IMG-PRODUCT">
 
 							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
@@ -869,7 +865,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Femme T-Shirt In Stripe
 								</a>
 
@@ -880,8 +876,8 @@
 
 							<div class="block2-txt-child2 flex-r p-t-3">
 								<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/icons/icon-heart-01.png" alt="ICON">
-									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/icons/icon-heart-02.png" alt="ICON">
+									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/images/icons/icon-heart-01.png" alt="ICON">
+									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
 						</div>
@@ -892,7 +888,7 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="{{ url('public') }}/assets/product-11.jpg" alt="IMG-PRODUCT">
+							<img src="{{ url('public') }}/assets/images/product-11.jpg" alt="IMG-PRODUCT">
 
 							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
@@ -901,7 +897,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Herschel supply 
 								</a>
 
@@ -912,8 +908,8 @@
 
 							<div class="block2-txt-child2 flex-r p-t-3">
 								<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/icons/icon-heart-01.png" alt="ICON">
-									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/icons/icon-heart-02.png" alt="ICON">
+									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/images/icons/icon-heart-01.png" alt="ICON">
+									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
 						</div>
@@ -924,7 +920,7 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="{{ url('public') }}/assets/product-12.jpg" alt="IMG-PRODUCT">
+							<img src="{{ url('public') }}/assets/images/product-12.jpg" alt="IMG-PRODUCT">
 
 							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
@@ -933,7 +929,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Herschel supply
 								</a>
 
@@ -944,8 +940,8 @@
 
 							<div class="block2-txt-child2 flex-r p-t-3">
 								<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/icons/icon-heart-01.png" alt="ICON">
-									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/icons/icon-heart-02.png" alt="ICON">
+									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/images/icons/icon-heart-01.png" alt="ICON">
+									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
 						</div>
@@ -956,7 +952,7 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="{{ url('public') }}/assets/product-13.jpg" alt="IMG-PRODUCT">
+							<img src="{{ url('public') }}/assets/images/product-13.jpg" alt="IMG-PRODUCT">
 
 							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
@@ -965,7 +961,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									T-Shirt with Sleeve
 								</a>
 
@@ -976,8 +972,8 @@
 
 							<div class="block2-txt-child2 flex-r p-t-3">
 								<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/icons/icon-heart-01.png" alt="ICON">
-									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/icons/icon-heart-02.png" alt="ICON">
+									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/images/icons/icon-heart-01.png" alt="ICON">
+									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
 						</div>
@@ -988,7 +984,7 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="{{ url('public') }}/assets/product-14.jpg" alt="IMG-PRODUCT">
+							<img src="{{ url('public') }}/assets/images/product-14.jpg" alt="IMG-PRODUCT">
 
 							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
@@ -997,7 +993,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Pretty Little Thing
 								</a>
 
@@ -1008,8 +1004,8 @@
 
 							<div class="block2-txt-child2 flex-r p-t-3">
 								<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/icons/icon-heart-01.png" alt="ICON">
-									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/icons/icon-heart-02.png" alt="ICON">
+									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/images/icons/icon-heart-01.png" alt="ICON">
+									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
 						</div>
@@ -1020,7 +1016,7 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="{{ url('public') }}/assets/product-15.jpg" alt="IMG-PRODUCT">
+							<img src="{{ url('public') }}/assets/images/product-15.jpg" alt="IMG-PRODUCT">
 
 							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
@@ -1029,7 +1025,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Mini Silver Mesh Watch
 								</a>
 
@@ -1040,8 +1036,8 @@
 
 							<div class="block2-txt-child2 flex-r p-t-3">
 								<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/icons/icon-heart-01.png" alt="ICON">
-									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/icons/icon-heart-02.png" alt="ICON">
+									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/images/icons/icon-heart-01.png" alt="ICON">
+									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
 						</div>
@@ -1052,7 +1048,7 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="{{ url('public') }}/assets/product-16.jpg" alt="IMG-PRODUCT">
+							<img src="{{ url('public') }}/assets/images/product-16.jpg" alt="IMG-PRODUCT">
 
 							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
@@ -1061,7 +1057,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Square Neck Back
 								</a>
 
@@ -1072,8 +1068,8 @@
 
 							<div class="block2-txt-child2 flex-r p-t-3">
 								<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/icons/icon-heart-01.png" alt="ICON">
-									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/icons/icon-heart-02.png" alt="ICON">
+									<img class="icon-heart1 dis-block trans-04" src="{{ url('public') }}/assets/images/icons/icon-heart-01.png" alt="ICON">
+									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="{{ url('public') }}/assets/images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
 						</div>
@@ -1206,23 +1202,23 @@
 			<div class="p-t-40">
 				<div class="flex-c-m flex-w p-b-18">
 					<a href="#" class="m-all-1">
-						<img src="{{ url('public') }}/assets/icons/icon-pay-01.png" alt="ICON-PAY">
+						<img src="{{ url('public') }}/assets/images/icons/icon-pay-01.png" alt="ICON-PAY">
 					</a>
 
 					<a href="#" class="m-all-1">
-						<img src="{{ url('public') }}/assets/icons/icon-pay-02.png" alt="ICON-PAY">
+						<img src="{{ url('public') }}/assets/images/icons/icon-pay-02.png" alt="ICON-PAY">
 					</a>
 
 					<a href="#" class="m-all-1">
-						<img src="{{ url('public') }}/assets/icons/icon-pay-03.png" alt="ICON-PAY">
+						<img src="{{ url('public') }}/assets/images/icons/icon-pay-03.png" alt="ICON-PAY">
 					</a>
 
 					<a href="#" class="m-all-1">
-						<img src="{{ url('public') }}/assets/icons/icon-pay-04.png" alt="ICON-PAY">
+						<img src="{{ url('public') }}/assets/images/icons/icon-pay-04.png" alt="ICON-PAY">
 					</a>
 
 					<a href="#" class="m-all-1">
-						<img src="{{ url('public') }}/assets/icons/icon-pay-05.png" alt="ICON-PAY">
+						<img src="{{ url('public') }}/assets/images/icons/icon-pay-05.png" alt="ICON-PAY">
 					</a>
 				</div>
 
@@ -1251,7 +1247,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		<div class="container">
 			<div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
 				<button class="how-pos3 hov3 trans-04 js-hide-modal1">
-					<img src="{{ url('public') }}/assets/icons/icon-close.png" alt="CLOSE">
+					<img src="{{ url('public') }}/assets/images/icons/icon-close.png" alt="CLOSE">
 				</button>
 
 				<div class="row">
@@ -1262,31 +1258,31 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
 
 								<div class="slick3 gallery-lb">
-									<div class="item-slick3" data-thumb="{{ url('public') }}/assets/product-detail-01.jpg">
+									<div class="item-slick3" data-thumb="{{ url('public') }}/assets/images/product-detail-01.jpg">
 										<div class="wrap-pic-w pos-relative">
-											<img src="{{ url('public') }}/assets/product-detail-01.jpg" alt="IMG-PRODUCT">
+											<img src="{{ url('public') }}/assets/images/product-detail-01.jpg" alt="IMG-PRODUCT">
 
-											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="{{ url('public') }}/assets/product-detail-01.jpg">
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="{{ url('public') }}/assets/images/product-detail-01.jpg">
 												<i class="fa fa-expand"></i>
 											</a>
 										</div>
 									</div>
 
-									<div class="item-slick3" data-thumb="{{ url('public') }}/assets/product-detail-02.jpg">
+									<div class="item-slick3" data-thumb="{{ url('public') }}/assets/images/product-detail-02.jpg">
 										<div class="wrap-pic-w pos-relative">
-											<img src="{{ url('public') }}/assets/product-detail-02.jpg" alt="IMG-PRODUCT">
+											<img src="{{ url('public') }}/assets/images/product-detail-02.jpg" alt="IMG-PRODUCT">
 
-											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="{{ url('public') }}/assets/product-detail-02.jpg">
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="{{ url('public') }}/assets/images/product-detail-02.jpg">
 												<i class="fa fa-expand"></i>
 											</a>
 										</div>
 									</div>
 
-									<div class="item-slick3" data-thumb="{{ url('public') }}/assets/product-detail-03.jpg">
+									<div class="item-slick3" data-thumb="{{ url('public') }}/assets/images/product-detail-03.jpg">
 										<div class="wrap-pic-w pos-relative">
-											<img src="{{ url('public') }}/assets/product-detail-03.jpg" alt="IMG-PRODUCT">
+											<img src="{{ url('public') }}/assets/images/product-detail-03.jpg" alt="IMG-PRODUCT">
 
-											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="{{ url('public') }}/assets/product-detail-03.jpg">
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="{{ url('public') }}/assets/images/product-detail-03.jpg">
 												<i class="fa fa-expand"></i>
 											</a>
 										</div>

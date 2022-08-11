@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="{{ url('public') }}/assets/{{ url('public') }}/assets/images/icons/favicon.png"/>
+	<link rel="icon" type="image/png" href="{{ url('public') }}/assets/images/icons/favicon.png"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{ url('public') }}/assets/vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
@@ -72,7 +72,7 @@
 				<nav class="limiter-menu-desktop container">
 					
 					<!-- Logo desktop -->		
-					<a href="#" class="logo">
+					<a href="{ url('home') }}" class="logo">
 						<img src="{{ url('public') }}/assets/images/icons/logo-01.png" alt="IMG-LOGO">
 					</a>
 
@@ -85,10 +85,6 @@
 
 							<li>
 								<a href="{{ url('shop') }}">Shop</a>
-							</li>
-
-							<li class="label1" data-label1="hot">
-								<a href="shoping-cart.html">Features</a>
 							</li>
 
 							<li>
@@ -202,10 +198,6 @@
 				</li>
 
 				<li>
-					<a href="shoping-cart.html" class="label1 rs1" data-label1="hot">Features</a>
-				</li>
-
-				<li>
 					<a href="blog.html">Blog</a>
 				</li>
 
@@ -308,11 +300,11 @@
 					</div>
 
 					<div class="header-cart-buttons flex-w w-full">
-						<a href="shoping-cart.html" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-r-8 m-b-10">
+						<a href="{{ url('cart') }}" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-r-8 m-b-10">
 							View Cart
 						</a>
 
-						<a href="shoping-cart.html" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-b-10">
+						<a href="{{ url('cart') }}" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-b-10">
 							Check Out
 						</a>
 					</div>
@@ -343,7 +335,7 @@
 							</div>
 								
 							<div class="layer-slick1 animated visible-false" data-appear="zoomIn" data-delay="1600">
-								<a href="product.html" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
+								<a href="{{ url('shop') }}" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
 									Shop Now
 								</a>
 							</div>

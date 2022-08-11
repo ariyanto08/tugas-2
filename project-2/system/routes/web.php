@@ -25,3 +25,18 @@ Route::get('shop', function () {
     return view('shop');
 });
 
+Route::get('blog', function () {
+    return view('blog');
+});
+
+Route::get('about', function () {
+    return view('about');
+});
+
+Route::get('contact', function () {
+    return view('contact');
+});
+
+Route::get('cart', function () {
+    return view('cart');
+});
