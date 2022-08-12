@@ -170,6 +170,9 @@
 						<a href="#" class="flex-c-m p-lr-10 trans-04">
 							USD
 						</a>
+						<a href="{{ url('signup') }}" class="flex-c-m trans-04 p-lr-25">
+							Register
+						</a>
 					</div>
 				</li>
 			</ul>

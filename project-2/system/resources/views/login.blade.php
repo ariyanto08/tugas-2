@@ -16,7 +16,7 @@
     <!-- Style -->
     <link rel="stylesheet" href="{{ url('public') }}/assets-login/css/style.css">
 
-    <title>Login #2</title>
+    <title>Login</title>
   </head>
   <body>
   
@@ -28,7 +28,9 @@
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-7">
-            <h3>Login to <strong>CozaStore</strong></h3>
+            <h3>Login to 
+				<a href="{{ url('home') }}" style="text-decoration:none; color:black;"><strong>CozaStore</strong></a>
+			</h3>
             <p class="mb-4">You need log in to edit your profile.</p>
             <form action="#" method="post">
               <div class="form-group first">
