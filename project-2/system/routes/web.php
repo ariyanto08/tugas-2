@@ -40,3 +40,11 @@ Route::get('contact', function () {
 Route::get('cart', function () {
     return view('cart');
 });
+
+Route::get('product-detail', function () {
+    return view('product-detail');
+});
+
+Route::get('login', function () {
+    return view('login');
+});

@@ -53,7 +53,7 @@
 							Help & FAQs
 						</a>
 
-						<a href="#" class="flex-c-m trans-04 p-lr-25">
+						<a href="{{ url('login') }}" class="flex-c-m trans-04 p-lr-25">
 							My Account
 						</a>
 
@@ -72,7 +72,7 @@
 				<nav class="limiter-menu-desktop container">
 					
 					<!-- Logo desktop -->		
-					<a href="{ url('home') }}" class="logo">
+					<a href="{{ url('home') }}" class="logo">
 						<img src="{{ url('public') }}/assets/images/icons/logo-01.png" alt="IMG-LOGO">
 					</a>
 
@@ -123,7 +123,7 @@
 		<div class="wrap-header-mobile">
 			<!-- Logo moblie -->		
 			<div class="logo-mobile">
-				<a href="index.html"><img src="{{ url('public') }}/assets/images/icons/logo-01.png" alt="IMG-LOGO"></a>
+				<a href="{{ url('home') }}"><img src="{{ url('public') }}/assets/images/icons/logo-01.png" alt="IMG-LOGO"></a>
 			</div>
 
 			<!-- Icon header -->
@@ -743,7 +743,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Esprit Ruffle Shirt
 								</a>
 
@@ -775,7 +775,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Herschel supply
 								</a>
 
@@ -807,7 +807,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Only Check Trouser
 								</a>
 
@@ -839,7 +839,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Classic Trench Coat
 								</a>
 
@@ -871,7 +871,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Front Pocket Jumper
 								</a>
 
@@ -903,7 +903,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Vintage Inspired Classic 
 								</a>
 
@@ -935,7 +935,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Shirt in Stretch Cotton
 								</a>
 
@@ -967,7 +967,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Pieces Metallic Printed
 								</a>
 
@@ -999,7 +999,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Converse All Star Hi Plimsolls
 								</a>
 
@@ -1031,7 +1031,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Femme T-Shirt In Stripe
 								</a>
 
@@ -1063,7 +1063,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Herschel supply 
 								</a>
 
@@ -1095,7 +1095,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Herschel supply
 								</a>
 
@@ -1127,7 +1127,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									T-Shirt with Sleeve
 								</a>
 
@@ -1159,7 +1159,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Pretty Little Thing
 								</a>
 
@@ -1191,7 +1191,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Mini Silver Mesh Watch
 								</a>
 
@@ -1223,7 +1223,7 @@
 
 						<div class="block2-txt flex-w flex-t p-t-14">
 							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+								<a href="{{ url('product-detail') }}" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Square Neck Back
 								</a>
 

@@ -66,7 +66,7 @@
 				<nav class="limiter-menu-desktop container">
 					
 					<!-- Logo desktop -->		
-					<a href="{ url('home') }}" class="logo">
+					<a href="{{ url('home') }}" class="logo">
 						<img src="{{ url('public') }}/assets/images/icons/logo-01.png" alt="IMG-LOGO">
 					</a>
 
@@ -159,7 +159,7 @@
 							Help & FAQs
 						</a>
 
-						<a href="#" class="flex-c-m p-lr-10 trans-04">
+						<a href="{{ url('login') }}" class="flex-c-m p-lr-10 trans-04">
 							My Account
 						</a>
 

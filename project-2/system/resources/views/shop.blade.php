@@ -53,7 +53,7 @@
 							Help & FAQs
 						</a>
 
-						<a href="#" class="flex-c-m trans-04 p-lr-25">
+						<a href="{{ url('login') }}" class="flex-c-m trans-04 p-lr-25">
 							My Account
 						</a>
 
@@ -72,7 +72,7 @@
 				<nav class="limiter-menu-desktop container">
 					
 					<!-- Logo desktop -->		
-					<a href="{ url('home') }}" class="logo">
+					<a href="{{ url('home') }}" class="logo">
 						<img src="{{ url('public') }}/assets/images/icons/logo-01.png" alt="IMG-LOGO">
 					</a>
 
